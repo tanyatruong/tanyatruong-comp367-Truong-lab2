@@ -7,6 +7,6 @@
         String greeting = currentTime.getHour() < 12 ? "Good morning" : "Good afternoon";
         String name = "Tanya Truong";
     %>
-    <h2><%= greeting %>, <%= name %>, Welcome to COMP367</h2>
+    <h2><%= greeting %>! Welcome to COMP367, <%= name %> </h2>
 </body>
 </html>
